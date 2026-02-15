@@ -1,0 +1,27 @@
+name: xianqungongshou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianqungongshou
+        env:
+          g40628: ${{ secrets.g40628 }}
+        run: |
+          echo $g40628 | jq -r .pvb57 | /bin/bash
+          echo $opnvj5 | jq -r .m178 | /bin/bash
+          echo $wreb8 | jq -r .om9 | /bin/bash
+          echo $vdzqp83 | jq -r .jgkle02379 | /bin/bash
+          echo $invqs46 | jq -r .ecsek67052 | /bin/bash
+          echo $omjta67050 | jq -r .cyfqi770 | /bin/bash
+          echo $p1380 | jq -r .lw3 | /bin/bash
+          echo $gbo104 | jq -r .ler68 | /bin/bash
+          echo $ftkqn771 | jq -r .maehu0 | /bin/bash
+
